@@ -161,3 +161,7 @@ cython_debug/
 .vs/DQ VII Tablet Editor/v17/DocumentLayout.json
 .vs/DQ VII Tablet Editor/v17/.suo
 .vs/DQ VII Tablet Editor/FileContentIndex/b8ca42f5-da3a-4cac-8546-a16ae568534b.vsidx
+*.vsidx
+.vs/DQ VII Tablet Editor/v17/DocumentLayout.backup.json
+*.vsidx
+*.exe
