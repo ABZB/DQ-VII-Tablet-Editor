@@ -5,6 +5,7 @@ from dqviichecksum import *
 from tkinter import *
 from tkinter import ttk
 from constants import *
+from string import capwords
 
 def load_save_file():
     #load data
@@ -110,7 +111,7 @@ def search_combobox_event(event, value, name):
                 data.append(item)
             #sets combobox selected value if equal
             if(value.lower() == item.lower()):
-                name.set(value.title())
+                name.set(capwords(value.title()))
             name['value'] = data
 
 
